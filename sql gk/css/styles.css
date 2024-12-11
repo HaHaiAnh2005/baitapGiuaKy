@@ -1,0 +1,119 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button_delete
+{
+    background-color: red;
+    color : white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: large;
+    padding: 5px;
+}
+.button_update
+{
+    background-color: #0e86cc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size:large;    
+}
+.button_delete:hover
+{
+    background-color: rgb(185, 74, 74);
+    cursor: pointer;
+}
+.button_update:hover
+{
+    cursor: pointer;
+    background-color: #006494;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size:larger;
+    text-align: center;
+    
+}
+table th
+{
+    background-color: hsl(171, 87%, 52%);
+    color:white;
+    height: 40px;
+
+}
+table td
+{
+    padding: 12px;
+    border-bottom: 1px solid hsl(0, 0%, 98%);
+
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.insert
+{
+    color: white;
+    background-color: limegreen;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: large;
+    text-align: center;
+    float: right;
+}
+.insert:hover{
+    background-color: darkgreen;
+}
+.search
+{
+    text-align: center;
+    text-decoration: none;
+    background-color: #dc3636;
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    font-size: larger;
+    height: 37px;
+    border: none;
+}
+.search:hover
+{
+    background-color: brown;
+    cursor: pointer;
+}
+.border
+{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    height: 31px;
+    border-radius: 5px;
+    margin: 1px;
+    width: 1000px;
+    font-size: large;
+}
+.them
+{
+    text-decoration: none;
+    color: white;
+
+}
+.ds
+{
+    display: flex;
+}
+.mar
+{
+    width: 95%;
+    padding-left: 35px;
+    padding-top: 20px;
+}
